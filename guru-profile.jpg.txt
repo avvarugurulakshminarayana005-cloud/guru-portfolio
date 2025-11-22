@@ -1,0 +1,1 @@
+<img src="assets/guru-profile.jpg" alt="Avvaru Guru Lakshmi Narayana" class="avatar" />

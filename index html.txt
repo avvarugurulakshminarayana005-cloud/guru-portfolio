@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Avvaru Guru Lakshmi Narayana | Data & Business Analyst</title>
+  <meta name="description" content="Portfolio of Avvaru Guru Lakshmi Narayana — Aspiring Data Analyst & Business Analyst." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#home">GURU</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home" class="container">
+    <!-- Hero -->
+    <section class="hero card">
+      <div class="hero-media">
+        <!-- Save your uploaded image as: assets/guru-profile.jpg -->
+        <img src="assets/guru-profile.jpg" alt="Avvaru Guru Lakshmi Narayana" class="avatar" />
+      </div>
+      <div class="hero-content">
+        <h1>Avvaru Guru Lakshmi Narayana</h1>
+        <p class="role">Aspiring Data Analyst & Business Analyst</p>
+        <ul class="info">
+          <li>Kadapa, Andhra Pradesh, India</li>
+          <li>Phone: 9346185054</li>
+          <li>Email: <a href="mailto:Avvarugurulakshminarayana005@gmail.com">Avvarugurulakshminarayana005@gmail.com</a></li>
+        </ul>
+        <div class="links">
+          <a class="btn" href="https://www.linkedin.com/in/avvarugurulakshminarayana" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/avvarugurulakshminarayana005-cloud/Avvaru-guru-Lakshmi-Narayana-" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="http://www.guru.netlify.com" target="_blank" rel="noopener">Portfolio</a>
+          <a class="btn btn-primary" href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Summary -->
+    <section id="summary" class="card">
+      <h2>Professional summary</h2>
+      <p>
+        Aspiring Data Analyst & Business Analyst skilled in <strong>Python, SQL, and Business Intelligence tools</strong>.
+        Passionate about transforming raw data into <strong>actionable insights</strong> and enabling organizations to make
+        <strong>data-driven decisions</strong>. Strong analytical mindset, attention to detail, and ability to collaborate effectively
+        in cross-functional teams. Eager to apply academic knowledge and internship experience to solve real-world business
+        challenges and drive measurable impact.
+      </p>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="card">
+      <h2>Work experience</h2>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>Quantium Data Analytics Job Simulation — Forage</h3>
+          <span class="item-meta">Apr 2025 – May 2025 • Bangalore, India</span>
+        </div>
+        <ul class="bullets">
+          <li><strong>Analysis:</strong> Analyzed large datasets to identify key business insights.</li>
+          <li><strong>EDA:</strong> Applied data cleaning and exploratory data analysis (EDA) techniques.</li>
+          <li><strong>Decision support:</strong> Interpreted results to support decision-making processes.</li>
+          <li><strong>Tools:</strong> Strengthened practical skills in Python, SQL, and BI tools through simulation tasks.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>Data Analyst — Deloitte</h3>
+          <span class="item-meta">Apr 2025 – May 2025 • Remote</span>
+        </div>
+        <ul class="bullets">
+          <li><strong>Client insights:</strong> Analyzed client datasets to uncover actionable insights.</li>
+          <li><strong>Dashboards:</strong> Created interactive dashboards using Tableau to support business decisions.</li>
+          <li><strong>Excel classification:</strong> Added classification columns in Excel to organize and segment data.</li>
+          <li><strong>Stakeholder value:</strong> Helped clients draw meaningful conclusions from data visualizations.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>Frontend Development Intern — M/s Scholars Minds (Short-Term)</h3>
+          <span class="item-meta">May 2025 – Jun 2025 • Tirupati, Andhra Pradesh, India</span>
+        </div>
+        <ul class="bullets">
+          <li><strong>UI development:</strong> Developed responsive web pages using HTML and CSS.</li>
+          <li><strong>UX focus:</strong> Applied frontend principles to enhance user experience.</li>
+          <li><strong>Collaboration:</strong> Worked with team members to deliver functional UI components.</li>
+          <li><strong>Workflow:</strong> Gained practical exposure to frontend tech and project workflows.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>Customer Segmentation Using Machine Learning</h3>
+          <span class="item-meta">Tools: Python, Pandas, Matplotlib, Seaborn</span>
+        </div>
+        <ul class="bullets">
+          <li><strong>Clustering:</strong> Applied K-Means to segment customers by purchasing behavior.</li>
+          <li><strong>Data prep:</strong> Cleaned and preprocessed data using Python, SQL, and Excel.</li>
+          <li><strong>Marketing impact:</strong> Delivered insights to improve targeted strategies.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>Automated Sales Report Generation — Alteryx</h3>
+          <span class="item-meta">Tools: Alteryx, MS Excel, Power BI</span>
+        </div>
+        <ul class="bullets">
+          <li><strong>Automation:</strong> Built Alteryx workflows to clean, transform, and visualize sales data.</li>
+          <li><strong>Efficiency:</strong> Reduced manual effort and improved reporting accuracy.</li>
+          <li><strong>Dashboards:</strong> Created Power BI dashboards for better decisions.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>Customer Lifetime Value (CLV) Analytics — Telecom Dataset</h3>
+          <span class="item-meta">Tools: Python, MS Excel, Power BI</span>
+        </div>
+        <ul class="bullets">
+          <li><strong>Valuation:</strong> Conducted CLV analysis to identify high-value customers.</li>
+          <li><strong>Modeling:</strong> Used statistical models to calculate lifetime value.</li>
+          <li><strong>Insights:</strong> Presented findings with interactive dashboards.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="card">
+      <h2>Technical skills</h2>
+      <ul class="tags">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>R (Basics)</li>
+        <li>Pandas</li>
+        <li>NumPy</li>
+        <li>Matplotlib</li>
+        <li>Power BI</li>
+        <li>Tableau</li>
+        <li>Advanced Excel</li>
+        <li>Data Cleaning</li>
+        <li>Data Analysis</li>
+        <li>Dashboard Creation</li>
+        <li>BI Reporting</li>
+      </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="card">
+      <h2>Certifications</h2>
+      <ul class="bullets">
+        <li><strong>Deloitte Australia — Data Analytics Job Simulation:</strong> Issued by Forage (Sep 2025)</li>
+        <li><strong>Quantium — Data Analytics Job Simulation:</strong> Issued by Forage (Sep 2025)</li>
+        <li><strong>Tata — Visualization: Empowering Business with Effective Insights:</strong> Job Simulation (Sep 2025)</li>
+        <li><strong>Data Science and Analytics:</strong> Issued by HP Life</li>
+        <li><strong>Certificate Course in Microsoft Office:</strong> Issued by HRDS Computer Education (Oct 2022)</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <ul class="bullets">
+        <li><strong>Bachelor of Computer Applications (B.Com CA):</strong> Sri Venkateswara University (2023–2026) • CGPA: 7.0 (Pursuing)</li>
+        <li><strong>Intermediate (MPC — Mathematics, Physics, Chemistry):</strong> Board of Intermediate Education, Andhra Pradesh (2021–2023) • CGPA: 6.8</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>If you’d like to discuss roles or projects, reach out using any of the options below.</p>
+      <div class="links">
+        <a class="btn btn-primary" href="mailto:Avvarugurulakshminarayana005@gmail.com">Email me</a>
+        <a class="btn" href="tel:+919346185054">Call</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/avvarugurulakshminarayana">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Avvaru Guru Lakshmi Narayana • Built with HTML & CSS • Hosted on Netlify</p>
+  </footer>
+
+  <script>
+    // Simple mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navList = document.querySelector('.nav-list');
+    toggle.addEventListener('click', () => navList.classList.toggle('open'));
+  </script>
+</body>
+</html>
